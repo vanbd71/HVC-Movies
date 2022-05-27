@@ -1,0 +1,137 @@
+/* PC */
+@media (min-width: 1024px){
+
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .logo {
+        font-size: 15px;
+        margin-left: -37px;
+        width: 81px;
+    }
+    .menu-list-item a {
+        padding: 16px 0px;
+    }
+    .profile-text-container {
+        display: flex;
+    }
+    .featured-content {
+        height: 38vh;
+        padding: 50px;
+    }
+
+}
+/* Mobile */  
+@media (max-width: 739px){
+    /* .sidebar{
+        display: none;
+    } */
+    .content-container {
+        margin-left: 0px;
+    }
+    .menu-list{
+        display: flex;
+        margin-left: -15px;
+        padding: 20px;
+    }
+    .logo{
+        font-size: 15px;
+        margin-left: -37px;
+        width: 81px;
+    }
+    /* .active{
+        margin-top: 165px;
+    } */
+    .profile-picture{
+        margin-left: -22px;
+    }
+    .profile-text-container{
+        margin: 0 10px;
+        display: flex;
+    }
+    .toggle{
+        display: none;
+    }
+    .img.profile-picture {
+        margin-left: 15px;
+    }
+    .featured-desc{
+        width: 305px;
+    }
+    .menu-list-item a{
+        padding: 0;
+    }
+    .profile-container{
+        display: none;
+    }
+    .reponsive-mobile{
+        display: none;
+    }
+    .logo-footer{
+        margin-left: 6%;
+    }
+    .ft-content {
+        display: block;
+    }
+    .footer-content{
+        width: 345px;
+    }
+    .lienhe {
+        margin-left: 6%;
+    }
+    .footer-social-container{
+        margin-left: -58px;
+        display: block;
+    }
+    .reponsive-mgt-10{
+        margin-top: 10px;
+    }
+    .modal-fake {
+        width: 356.98px;
+        height: 357px;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .modal-fake2{
+        display: none;
+    }
+    .modal-fake3{
+        display: none;
+    }
+    .content-buyticket{
+        height: 440px;
+    }
+    #form-dn {
+        
+    }
+    #wrapper {
+        min-width: 52vh;
+        margin-top: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .wrapper-reponsive-dangki{
+        margin-bottom: -16% !important;
+    }
+    .form-heading {
+        margin-top: -22px;
+    }
+    #form-login {
+        margin-top: -46px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .form-group {
+        margin: 10px 0 18px 0;
+    }
+    .modal-body-2 {
+        display: none;
+    }
+    .modal.js-modal.open {
+        margin-right: 20px;
+    }
+    iframe {
+        width: 348px;
+        height: 290px;
+    }
+}
